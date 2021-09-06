@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="hover_style/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="hover_style/hover.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<div class="top-header d-none d-xl-block">
+  <div class="container top-signIn">
+    <ul class="nav justify-content-end top-nav-style">
+      <li class="nav-item ">
+        <a class=" left-link" href="#">Affilliate Program link</a>
+      </li>
+      <li class="nav-item">
+        <a class="signIn-link" href="#">SIGN IN</a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+<div class="header bg-white sticky-top">
+  <div class="container">
+    <nav class="row navbar navbar-expand-lg navbar-light">
+      <a href="#" class="col-3 navbar-brand"><img class="logo" id="logo" src="image/RealT_Logo.svg" alt="logo"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon navbarIcon"></span>
+      </button>
+      <div class="col-9 collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav justify-content-end navMenu">
+          <li class="nav-item">
+            <a href="#" class=" nav-link hvr-underline-from-left">Marketplace</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link hvr-underline-from-left">Sell Tokens</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link hvr-underline-from-left">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link hvr-underline-from-left">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link hvr-underline-from-left">FAG</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link hvr-underline-from-left">BLog</a>
+          </li>
+        </ul>
+        <div class="shopping_card">
+          <i class="bi bi-cart-plus"></i>
+        </div>
+      </div>
+
+    </nav>
+  </div>
+</div>
+<div class="home-content">
+  <div class="container pt-5">
+    <div class="content-left-side row">
+      <div class="col-lg-6">
+        <h1>Fractional and <br> frictionless real estate <br> investing</h1>
+        <h6 class="pt-3">OWNERSHIP REINVENTED</h6>
+        <P class="pt-3">
+          For the first time, investors around the globe can buy into the US real estate market through fully-compliant,
+          fractional, tokenized ownership. Powered by blockchain.
+        </P>
+        <div class="get-start-link pt-5">
+          <a href="#">GET STARTED</a>
+        </div>
+      </div>
+
+      <div class="image-right-side col-6">
+        <img src="image/hero-block-stacking.png" alt="pic1">
+      </div>
+    </div>
+  </div>
+  <script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("logo").style.fontSize = "25px";
+      } else {
+        document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("logo").style.fontSize = "35px";
+      }
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <body>
+
+  </body>
+
+</html>

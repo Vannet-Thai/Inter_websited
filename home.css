@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.top-header {
+	height: 45px;
+	background-color: rgb(41, 67, 120);
+}
+.top-signIn {
+	height: auto;
+}
+.left-link {
+	color: rgb(41, 67, 120);
+	border: 2px solid #ffff;
+	background-color: #ffff;
+	padding: -10px -10px;
+	border-radius: 25px;
+}
+.left-link:hover {
+	color: #ffff;
+	background-color: rgb(41, 67, 120);
+}
+.signIn-link {
+	color: #ffff;
+	font-weight: 400;
+}
+.signIn-link:hover {
+	color: rgb(242, 169, 30);
+}
+.second-header {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+		rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+	height: auto;
+}
+.logo {
+	height: 80px;
+	padding: 2px 10px;
+}
+.righ-menu {
+	width: 80%;
+}
+.memu-link-header {
+	float: right;
+}
+.head-menu ul li a {
+	color: #000;
+}
+.head-menu ul li a:hover {
+	color: #90162d;
+}
