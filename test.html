@@ -14,13 +14,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 </head>
 <div class="top-header d-none d-xl-block">
   <div class="container top-signIn">
-    <ul class="nav justify-content-end top-nav-style">
+    <ul class="nav justify-content-end top-nav-style pr-3">
       <li class="nav-item ">
-        <a class=" left-link" href="#">Affilliate Program link</a>
+        <a class=" left-link" href="#">Affilliate Program</a>
       </li>
       <li class="nav-item">
         <a class="signIn-link" href="#">SIGN IN</a>
@@ -29,15 +31,15 @@
   </div>
 
 </div>
-<div class="header bg-white sticky-top">
+<div class="header bg-white clearfix sticky-top" id="navbar">
   <div class="container">
-    <nav class="row navbar navbar-expand-lg navbar-light">
+    <nav class="row navbar navbar-expand-lg navbar-light navbar-header">
       <a href="#" class="col-3 navbar-brand"><img class="logo" id="logo" src="image/RealT_Logo.svg" alt="logo"></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
         <span class="navbar-toggler-icon navbarIcon"></span>
       </button>
-      <div class="col-9 collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav justify-content-end navMenu">
+      <div class="col-lg-8 collapse navbar-collapse">
+        <ul class="navbar-nav justify-content-end navMenu" id="navbarMenu">
           <li class="nav-item">
             <a href="#" class=" nav-link hvr-underline-from-left">Marketplace</a>
           </li>
@@ -57,16 +59,20 @@
             <a href="#" class="nav-link hvr-underline-from-left">BLog</a>
           </li>
         </ul>
-        <div class="shopping_card">
-          <i class="bi bi-cart-plus"></i>
-        </div>
+
+      </div>
+      <div class="col-1 shopping-card">
+        <a href="#">
+          <i class="fas fa-cart-arrow-down"></i>
+
+        </a>
       </div>
 
     </nav>
   </div>
 </div>
 <div class="home-content">
-  <div class="container pt-5">
+  <div class="container p-5">
     <div class="content-left-side row">
       <div class="col-lg-6">
         <h1>Fractional and <br> frictionless real estate <br> investing</h1>
@@ -81,21 +87,24 @@
       </div>
 
       <div class="image-right-side col-6">
-        <img src="image/hero-block-stacking.png" alt="pic1">
+        <img class="img-responsive" src="image/hero-block-stacking.png" alt="pic1">
       </div>
     </div>
   </div>
+
+
+
   <script>
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
     window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navbar").style.padding = "30px 10px";
-        document.getElementById("logo").style.fontSize = "25px";
+        document.getElementById("navbar").style.padding = "0px 10px";
+        document.getElementById("logo").style.height = "60px";
       } else {
-        document.getElementById("navbar").style.padding = "80px 10px";
-        document.getElementById("logo").style.fontSize = "35px";
+        document.getElementById("navbar").style.padding = "10px 10px";
+        document.getElementById("logo").style.height = "70px";
       }
     }
   </script>
